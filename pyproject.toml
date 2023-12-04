@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=60", "setuptools_scm>=8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pydate_generator"
+version = "1.0.0"
+authors = [
+    {name = "rina0uchi", email="34464831+rina0uchi@users.noreply.github.com"}
+]
+description = "Generate a sequence of dates that includes the start and end dates."
+readme = "README.md"
+requires-python = ">=3.12.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent", 
+]
+dynamic = ["version"]
+
+
+[project.urls]
+Homepage = "https://github.com/rina0uchi/pydate_generator"
+Issues  = "https://github.com/rina0uchi/pydate_generator/issues"
+
+[project.optional-dependencies]
+dev = [
+    "datetime"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.dynamic]
+version_file = "src/pydate_generator/_version.py"
+
+[tool.setuptools_scm]
+version_file = "src/pydate_generator/_version.py"
+write_to = "src/pydate_generator/_version.py"
+version_scheme = "python-simplified-semver"
+local_scheme = "no-local-version"

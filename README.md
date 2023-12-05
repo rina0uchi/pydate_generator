@@ -1,5 +1,5 @@
 # pydate_generator
-Given a start and end date, this generator returns a sequence of dates that includes the start and end dates.
+Given a start and end date, this generator returns a sequence of dates that includes the start and end dates.<br>
 開始日と終了日を指定すると，開始日と終了日を含む日付を順に返すジェネレーターです．
 
 

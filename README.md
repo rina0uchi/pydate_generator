@@ -4,9 +4,13 @@ Given a start and end date, this generator returns a sequence of dates that incl
 
 
 # Installation
-Download this repogitory and use pip.
+Download this repogitory, and use pip.
 ```
 pip install pydate_generator/
+```
+or
+```
+pip install git+https://github.com/rina0uchi/pydate_generator.git
 ```
 
 # Example

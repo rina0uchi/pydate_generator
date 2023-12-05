@@ -11,10 +11,10 @@ pip install pydate_generator/
 
 # Example
 ```python
-import datetime
+from datetime import date
 import pydate_generator
 
-start = date(2023, 12, 30)
+start = date(2023, 12, 23)
 end = date(2024, 1, 5)
 
 for date in pydate_generator.gen_dates(start, end):

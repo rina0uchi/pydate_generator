@@ -6,7 +6,7 @@ Given a start and end date, this generator returns a sequence of dates that incl
 # Installation
 Download this repogitory and use pip.
 ```
-pip install /pydate_generator
+pip install pydate_generator/
 ```
 
 # Example
